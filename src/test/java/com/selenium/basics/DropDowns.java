@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class DropDowns {
     public static void main(String[] args) throws InterruptedException {
         //Launch chrome web browser
@@ -22,5 +24,21 @@ public class DropDowns {
         //dropdowns.selectByVisibleText("ALBANIA");
         dropdowns.selectByIndex(0);
         //dropdowns.selectByValue("ALBANIA");
+
+        if (dropdowns.isMultiple() ==true)
+        {
+            System.out.println("Dropdown is multiple");
+        }
+        else
+        {
+            System.out.println("Dropdown not is multiple");
+        }
+
+        List<WebElement> alldropdownsoptions = dropdowns.getOptions();
+        for(WebElement el:alldropdownsoptions )
+        {
+            System.out.println(el.getText()); //fetch and print all the data from the dropdown
+        }
+        System.out.println("Total options" +alldropdownsoptions.size() );
     }
 }
