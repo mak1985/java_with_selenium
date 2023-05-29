@@ -1,4 +1,4 @@
-GitHub repository url: https://github.com/mak1985/java_with_selenium.git
+GitHub repository url: https://github.com/mak1985/java_with_selenium/tree/master
 
 * Programming language: Java v11
 * Automation Tool: Selenium

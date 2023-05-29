@@ -12,7 +12,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.util.List;
 
-public class BrkenLnks {
+public class BrokenLnks {
     public static void main(String[] args) {
         //Launch chrome web browser
         System.getProperty("webdriver.chrome.driver", "C:\\Users\\Makhan AutomationHub\\Downloads\\chromedriver_win32\\chromedriver.exe");
