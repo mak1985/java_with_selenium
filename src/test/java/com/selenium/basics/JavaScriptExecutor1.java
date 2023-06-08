@@ -38,6 +38,8 @@ public class JavaScriptExecutor1 {
         //navigate to different url:
         js.executeScript("window.location='https://www.tutorialspoint.com/index.htm'");
 
+
+
         //scroll to midle with js executor
         WebElement ele = driver.findElement(By.linkText("View more"));
         ele.click();
