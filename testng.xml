@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/Makhan AutomationHub/IdeaProjects/java_with_selenium/src/test/java/com/tesng/session/LoanDepartment.java">
+    <groups>
+        <run>
+            <include name="pack01"/>
+            <include name="pack02"/>
+                </run>
+            </groups>
+    <test name="GropuAttributes">
         <classes>
-            <class name="com.tesng.session.LoanDepartment">
-                <methods>
-                    <include name="MobileLoginPersonalLoan"/>
-                    <include name="APILoginPersonalLoan"/>
-                    <include name="AppleLoginAutomobileLoan"/>
-                    <include name="Test"/>
+            <class name="com.tesng.session.GropuAttributes"></class>
 
-                </methods>
-            </class>
         </classes>
     </test>
+
 </suite>
