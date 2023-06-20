@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <groups>
-        <run>
-            <include name="pack01"/>
-            <include name="pack02"/>
-                </run>
-            </groups>
-    <test name="GropuAttributes">
+    <test
+          name="C:/Users/Makhan AutomationHub/IdeaProjects/java_with_selenium/src/test/java/com/tesng/session/TestNgParameterGoogleSearch.java">
+        <parameter name="keyword" value="I am John"></parameter>
+
         <classes>
-            <class name="com.tesng.session.GropuAttributes"></class>
-
+            <class name="com.tesng.session.TestNgParameterGoogleSearch"/>
         </classes>
-    </test>
 
+    </test>
 </suite>
