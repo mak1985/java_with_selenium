@@ -32,7 +32,7 @@ public class AssertionsDemo {
 
         //Soft assertion code
         SoftAssert softVerify = new SoftAssert();
-        softVerify.assertEquals(expectedTitle, actualTitle);
+        softVerify.assertEquals(expectedTitle, actualTitle,"");
         System.out.println("Test execution done - soft assertion");
         driver.close();
         //report all failure messages/exceptions
